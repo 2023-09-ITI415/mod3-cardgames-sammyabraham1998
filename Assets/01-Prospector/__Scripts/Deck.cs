@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class Deck : MonoBehaviour {
 
-[Header("Set in Inspector")]
+	[Header("Set in Inspector")]
 	//Suits
 	public Sprite suitClub;
 	public Sprite suitDiamond;
