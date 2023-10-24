@@ -81,11 +81,16 @@ public SpriteRenderer[] spriteRenderers;
 		}
 	}
 
+    // Virtual methods can be overridden by subclass methods with the name
+virtual public void OnMouseUpAsButton()
+    {
+        print(name); // When clicked, this outputs the card name
+    }
 
-	// Use this for initialization
-	
-	// Update is called once per frame
-	void Update () {
+    // Use this for initialization
+
+    // Update is called once per frame
+    void Update () {
 	
 	}
 } // class Card
