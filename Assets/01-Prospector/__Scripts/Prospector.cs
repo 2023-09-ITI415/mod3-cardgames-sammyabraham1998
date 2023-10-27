@@ -362,7 +362,7 @@ void LayoutGame()
     void ReloadLevel()
     {
         // Reload the scene, resetting the game
-        SceneManager.LoadScene("__Prospector_Scene_0");
+        SceneManager.LoadScene("__Prospector");
     }
 
     // Return true if the two cards are adjacent in rank (A & K wrap around)
