@@ -362,7 +362,7 @@ void LayoutGame()
     void ReloadLevel()
     {
         // Reload the scene, resetting the game
-        SceneManager.LoadScene("__Prospector");
+        SceneManager.LoadScene("__Golf");
     }
 
     // Return true if the two Golfcards are adjacent in Golfrank (A & K wrap around)
